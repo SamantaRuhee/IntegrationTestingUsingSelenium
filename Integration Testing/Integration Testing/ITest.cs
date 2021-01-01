@@ -42,7 +42,7 @@ namespace Inegration_Testing
         }
 
         [Test]
-        public void TheLoginTestElpTest()
+        public void ElpTest()
         {
             driver.Navigate().GoToUrl("https://elp.duetbd.org/login/index.php");
             driver.FindElement(By.Id("username")).Click();
